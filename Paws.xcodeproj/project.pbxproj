@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		076FFC652F346C010049BC99 /* EditPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FFC642F346C010049BC99 /* EditPetView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		076FFC522F3460D60049BC99 /* Paws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076FFC642F346C010049BC99 /* EditPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		076FFC492F3460D60049BC99 = {
 			isa = PBXGroup;
 			children = (
+				076FFC642F346C010049BC99 /* EditPetView.swift */,
 				076FFC542F3460D60049BC99 /* Paws */,
 				076FFC532F3460D60049BC99 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076FFC652F346C010049BC99 /* EditPetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
